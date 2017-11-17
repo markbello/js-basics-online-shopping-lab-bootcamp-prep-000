@@ -80,8 +80,8 @@ function placeOrder(n){
     console.log("Sorry, we don't have a credit card on file for you.");
     return;
   } else {
-      var total = total();
-  	  console.log(`Your total cost is $${total}, which will be charged to card number ${n}.`);
+      var totalCost = total();
+  	  console.log(`Your total cost is $${totalCost}, which will be charged to card number ${n}.`);
   	  cart = [];
   	  return;
   }
